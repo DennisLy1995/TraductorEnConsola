@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities_POJO", "EntitiesPojo\Entities_POJO.csproj", "{7145676B-3CB7-4B8E-94FF-32D2A237BD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAPI", "CoreAPI\CoreAPI.csproj", "{96572846-9795-4BCF-966C-58601C6E10E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{B6282F9E-F47D-4EAA-A55C-FDF4DBE75762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D54D323E-362E-4154-9E00-E1013BA7FD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{54E5496E-02DD-4350-99A5-EF4258C41B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{FB15C4B5-2852-450A-98BE-293D3E911C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62949136-A346-4D90-9B94-47EFA7DACAE5}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7145676B-3CB7-4B8E-94FF-32D2A237BD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7145676B-3CB7-4B8E-94FF-32D2A237BD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7145676B-3CB7-4B8E-94FF-32D2A237BD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7145676B-3CB7-4B8E-94FF-32D2A237BD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96572846-9795-4BCF-966C-58601C6E10E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96572846-9795-4BCF-966C-58601C6E10E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96572846-9795-4BCF-966C-58601C6E10E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96572846-9795-4BCF-966C-58601C6E10E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6282F9E-F47D-4EAA-A55C-FDF4DBE75762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6282F9E-F47D-4EAA-A55C-FDF4DBE75762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6282F9E-F47D-4EAA-A55C-FDF4DBE75762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6282F9E-F47D-4EAA-A55C-FDF4DBE75762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54D323E-362E-4154-9E00-E1013BA7FD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54D323E-362E-4154-9E00-E1013BA7FD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54D323E-362E-4154-9E00-E1013BA7FD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54D323E-362E-4154-9E00-E1013BA7FD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E5496E-02DD-4350-99A5-EF4258C41B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E5496E-02DD-4350-99A5-EF4258C41B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E5496E-02DD-4350-99A5-EF4258C41B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E5496E-02DD-4350-99A5-EF4258C41B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB15C4B5-2852-450A-98BE-293D3E911C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB15C4B5-2852-450A-98BE-293D3E911C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB15C4B5-2852-450A-98BE-293D3E911C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB15C4B5-2852-450A-98BE-293D3E911C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9FFA976-3D1F-426D-B4BD-31AA73617669}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dennisly.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CoreAPI\\CoreAPI.csproj
+		SccProjectName1 = CoreAPI
+		SccLocalPath1 = CoreAPI
+		SccProjectUniqueName2 = WebAPI\\WebAPI.csproj
+		SccProjectName2 = WebAPI
+		SccLocalPath2 = WebAPI
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = Exceptions\\Exceptions.csproj
+		SccProjectName4 = Exceptions
+		SccLocalPath4 = Exceptions
+		SccProjectUniqueName5 = EntitiesPojo\\Entities_POJO.csproj
+		SccProjectName5 = EntitiesPojo
+		SccLocalPath5 = EntitiesPojo
+		SccProjectUniqueName6 = Main\\Main.csproj
+		SccProjectName6 = Main
+		SccLocalPath6 = Main
+	EndGlobalSection
+EndGlobal
